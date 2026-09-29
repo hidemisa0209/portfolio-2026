@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./img/siteicon.png" type="image/png" alt="アイコン">
+    <title>HIDERA Portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal" defer></script>
+    <script type="module" src="./js/script.js"></script>
+</head>
+
+
+<body>
+
+
+    <div class="loading">
+        <div class="l-pic"><img src="./img/l_pic.png" alt="ローディング画像"></div>
+        <p class="l-text">now loading<span></span></p>
+    </div>
+
+    
+    <header class="sub-header bg-grid">
+        <div class="inner">
+            <div class="m-logo">
+                <a href="./index.html"><img src="./img/m_logo.svg" alt="ロゴ"></a>
+            </div>
+
+            <nav class="m-nav">
+                <ul>
+                    <li>
+                        <a href="./index.html">TOP</a>
+                    </li>
+
+                    <li>
+                        <a href="./works_all.html">WORKS</a>
+                    </li>
+
+                    <li>
+                        <a href="./about.html">ABOUT</a>
+                    </li>
+
+                    <li>
+                        <a href="./index.html#main-contact">CONTACT</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+
+    <section id="hamburger-section">
+        <div class="inner">
+            <button class="m-hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </section>
+
+
+
+    <section id="hamburger-menu">
+        <div class="inner">
+            <div class="h-logo">
+                <img src="./img/h_logo.svg" alt="ロゴ">
+            </div>
+
+
+            <nav class="h-nav">
+                <ul>
+                    <li>
+                        <a href="./index.html">
+                            <span class="h-title">TOP</span>
+                            <small>トップページ</small>
+                            <span class="h-arrow"></span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="./works_all.html">
+                            <span class="h-title">WORKS</span>
+                            <small>制作物</small>
+                            <span class="h-arrow"></span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="./about.html">
+                            <span class="h-title">ABOUT</span>
+                            <small>自己紹介</small>
+                            <span class="h-arrow"></span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="./index.html#main-contact">
+                            <span class="h-title">CONTACT</span>
+                            <small>お問い合わせ</small>
+                            <span class="h-arrow"></span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </section>
+
+
+
+    <!-- パンくずリスト -->
+    <nav id="breadcrumb">
+        <div class="inner">
+            <a href="./index.html" class="brd-item">TOP</a>
+            <span class="b-arrow"></span>
+            <a href="./works_all.html" class="brd-item">WORKS</a>
+            <span class="b-arrow"></span>
+            <a href="./works_disaster.html" class="brd-current">家庭用防災LP</a>
+        </div>
+    </nav>
+
+
+
+    <section id="works-sub">
+        <div class="inner">
+            <h1 class="section-title">
+                WORKS
+                <small>制作物</small>
+            </h1>
+
+            <div id="ws-mainpic" class="ws-pic">
+                <img src="./img/works/disaster/disaster_mainpic.png" alt="モックアップの画像">
+            </div>
+
+            <h2 class="section-subtitle">
+                家庭用防災LP
+                <small>Figma / CLIP STUDIO PAINT / Visual Studio Code</small>
+            </h2>
+
+            <ul class="ws-tag">
+                <li><a href="./works_academicproject.html" class="ws-type">課題制作</a></li>
+                <li><a href="./works_all_web.html" class="ws-category"># Web</a></li>
+                <li><a href="./works_all_graphicdesign.html" class="ws-category"># グラフィックデザイン</a></li>
+                <li><a href="./works_all_illustration.html" class="ws-category"># イラスト</a></li>
+            </ul>
+
+
+            <ul class="ws-info">
+                <li>
+                    <p>概要</p>
+                    <span>エム・シーシー食品株式会社様から実際に依頼を受け、1年次の進級制作として制作した家庭用防災をテーマにしたランディングページです。<small class="ws-graytxt">※PCサイズでの制作が課題条件だったため、SPサイトの作成は行っていません。</small></span>
+                </li>
+
+                <li>
+                    <p>ターゲット</p>
+                    <span>家庭で防災に備えたい20〜30代の子育て世代をメインターゲットに設定しました。<br>また、防災グッズや非常食に興味がある方や、親子で楽しく防災について学びたい方、日頃から防災意識を高めたい方を想定しています。</span>
+                </li>
+
+                <li>
+                    <p>コンセプト</p>
+                    <span>「安心感と『考えるきっかけ』をつくる家庭用防災サイト」をコンセプトに制作しました。<br>MCCのコーポレートカラーである赤を基調とし、親しみやすく明るい印象を与えるデザインを意識しています。家庭向けのサイトとして、防災の重要性をわかりやすく伝えながら、堅い印象になりすぎないようイラストやあしらいを取り入れ、楽しく読み進められる構成にしました。LPを通して、防災を「知る」だけでなく、家族で話し合うきっかけとなることを目指しています。</span>
+                </li>
+
+                <li>
+                    <p>制作期間</p>
+                    <span>約3ヶ月</span>
+                </li>
+
+                <li>
+                    <p>担当範囲</p>
+                    <span>デザイン / イラスト（アニメーション） / コーディング</span>
+                </li>
+
+                <li>
+                    <p>URL</p>
+                    <span><a href="https://hidemisa0209.github.io/disaster-pc/" target="_blank" rel="noopener noreferrer">https://hidemisa0209.github.io/disaster-pc/</a></span>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+
+
+    <section id="works-point">
+        <div class="inner">
+            <h3 class="section-subtitle">
+                POINT
+                <small>こだわり</small>
+            </h3>
+
+            <div class="wsp-slider">
+                <div class="wsp-list">
+                    <div class="wsp-item">
+                        <picture>
+                            <source srcset="./img/works/disaster/disaster_point_page01_sp.png" media="(max-width: 767px)" type="image/png">
+                            <img src="./img/works/disaster/disaster_point_page01.png" alt="1ページ目">
+                        </picture>
+                    </div>
+
+                    <div class="wsp-item">
+                        <picture>
+                            <source srcset="./img/works/disaster/disaster_point_page02_sp.png" media="(max-width: 767px)" type="image/png">
+                            <img src="./img/works/disaster/disaster_point_page02.png" alt="2ページ目">
+                        </picture>
+                    </div>
+
+                    <div class="wsp-item">
+                        <picture>
+                            <source srcset="./img/works/disaster/disaster_point_page03_sp.png" media="(max-width: 767px)" type="image/png">
+                            <img src="./img/works/disaster/disaster_point_page03.png" alt="3ページ目">
+                        </picture>
+                    </div>
+
+                    <div class="wsp-item">
+                        <picture>
+                            <source srcset="./img/works/disaster/disaster_point_page04_sp.png" media="(max-width: 767px)" type="image/png">
+                            <img src="./img/works/disaster/disaster_point_page04.png" alt="4ページ目">
+                        </picture>
+                    </div>
+
+                    <div class="wsp-item">
+                        <picture>
+                            <source srcset="./img/works/disaster/disaster_point_page05_sp.png" media="(max-width: 767px)" type="image/png">
+                            <img src="./img/works/disaster/disaster_point_page05.png" alt="5ページ目">
+                        </picture>
+                    </div>
+
+                    <div class="wsp-item">
+                        <picture>
+                            <source srcset="./img/works/disaster/disaster_point_page06_sp.png" media="(max-width: 767px)" type="image/png">
+                            <img src="./img/works/disaster/disaster_point_page06.png" alt="6ページ目">
+                        </picture>
+                    </div>
+                </div>
+            </div>
+
+            <div class="wsp-nav">
+                <button class="wsp-btn" id="wsp-back">
+                    <span></span>
+                </button>
+
+                <div class="wsp-progress">
+                    <div class="wsp-progress-fill"></div>
+                </div>
+
+                <button class="wsp-btn" id="wsp-next">
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section id="works-related">
+        <div class="inner">
+            <h4 class="section-subtitle">
+                RELATED
+                <small>関連作品</small>
+            </h4>
+
+            <div class="wa-column">
+                <div class="wa-item">
+                    <a href="./works_aquarium.html">
+                        <div class="wa-pic">
+                            <img src="./img/works/aquarium/aquarium_allview_pic.png" alt="制作物のサムネイル">
+                        </div>
+
+                        <div class="wa-txt">
+                            <p>課題制作</p>
+                            <span>架空の水族館サイト</span>
+                        </div>
+                    </a>
+                </div>
+
+
+                <div class="wa-item">
+                    <a href="./works_school.html">
+                        <div class="wa-pic">
+                            <img src="./img/works/school/school_allview_pic.png" alt="制作物のサムネイル">
+                        </div>
+
+                        <div class="wa-txt">
+                            <p>課題制作</p>
+                            <span>母校リニューアルサイト</span>
+                        </div>
+                    </a>
+                </div>
+
+
+                <div class="wa-item">
+                    <a href="./works_zodiacsp.html">
+                        <div class="wa-pic">
+                            <img src="./img/works/zodiac-sp/zodiacsp_allview_pic.png" alt="制作物のサムネイル">
+                        </div>
+
+                        <div class="wa-txt">
+                            <p>課題制作</p>
+                            <span>12星座シール紹介SP</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <nav id="works-nav">
+        <div class="inner">
+            <a href="./works_illustrationparttime.html" id="wsn-backbtn" class="wsn-pagebtn">
+                <div class="wsn-arrow"></div>
+                <span>イラストアシスタント / グッズ制作</span>
+            </a>
+
+            <a href="./works_all.html" class="cmp-backbtn">BACK ALL VIEW</a>
+
+            <a href="./works_weatherapp.html" id="wsn-nextbtn" class="wsn-pagebtn">
+                <span>天気予報アプリ</span>
+                <div class="wsn-arrow"></div>
+            </a>
+        </div>
+    </nav>
+
+
+
+    <section class="Copyrighte">
+        <span>Copyrighte 2026 Hidera Misaki All Rights Reserved.</span>
+    </section>
+</body>
+
+</html>

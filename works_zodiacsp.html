@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./img/siteicon.png" type="image/png" alt="アイコン">
+    <title>HIDERA Portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal" defer></script>
+    <script type="module" src="./js/script.js"></script>
+</head>
+
+
+<body>
+
+
+    <div class="loading">
+        <div class="l-pic"><img src="./img/l_pic.png" alt="ローディング画像"></div>
+        <p class="l-text">now loading<span></span></p>
+    </div>
+
+    
+    <header class="sub-header bg-grid">
+        <div class="inner">
+            <div class="m-logo">
+                <a href="./index.html"><img src="./img/m_logo.svg" alt="ロゴ"></a>
+            </div>
+
+            <nav class="m-nav">
+                <ul>
+                    <li>
+                        <a href="./index.html">TOP</a>
+                    </li>
+
+                    <li>
+                        <a href="./works_all.html">WORKS</a>
+                    </li>
+
+                    <li>
+                        <a href="./about.html">ABOUT</a>
+                    </li>
+
+                    <li>
+                        <a href="./index.html#main-contact">CONTACT</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+
+    <section id="hamburger-section">
+        <div class="inner">
+            <button class="m-hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </section>
+
+
+
+    <section id="hamburger-menu">
+        <div class="inner">
+            <div class="h-logo">
+                <img src="./img/h_logo.svg" alt="ロゴ">
+            </div>
+
+
+            <nav class="h-nav">
+                <ul>
+                    <li>
+                        <a href="./index.html">
+                            <span class="h-title">TOP</span>
+                            <small>トップページ</small>
+                            <span class="h-arrow"></span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="./works_all.html">
+                            <span class="h-title">WORKS</span>
+                            <small>制作物</small>
+                            <span class="h-arrow"></span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="./about.html">
+                            <span class="h-title">ABOUT</span>
+                            <small>自己紹介</small>
+                            <span class="h-arrow"></span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="./index.html#main-contact">
+                            <span class="h-title">CONTACT</span>
+                            <small>お問い合わせ</small>
+                            <span class="h-arrow"></span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </section>
+
+
+
+    <!-- パンくずリスト -->
+    <nav id="breadcrumb">
+        <div class="inner">
+            <a href="./index.html" class="brd-item">TOP</a>
+            <span class="b-arrow"></span>
+            <a href="./works_all.html" class="brd-item">WORKS</a>
+            <span class="b-arrow"></span>
+            <a href="./works_zodiacsp.html" class="brd-current">12星座シール紹介SP</a>
+        </div>
+    </nav>
+
+
+
+    <section id="works-sub">
+        <div class="inner">
+            <h1 class="section-title">
+                WORKS
+                <small>制作物</small>
+            </h1>
+
+            <div id="ws-mainpic" class="ws-pic">
+                <img src="./img/works/zodiac-sp/zodiacsp_mainpic.png" alt="---の画像">
+            </div>
+
+            <h2 class="section-subtitle">
+                12星座シール紹介SP
+                <small>Figma / Illustrator</small>
+            </h2>
+
+            <ul class="ws-tag">
+                <li><a href="./works_academicproject.html" class="ws-type">課題制作</a></li>
+                <li><a href="./works_all_web.html" class="ws-category"># Web</a></li>
+            </ul>
+
+
+            <ul class="ws-info">
+                <li>
+                    <p>概要</p>
+                    <span>12星座をモチーフにしたオリジナルシールを紹介する、スマートフォン向けのWebサイトです。<br>実際の商品販売を想定し、商品の魅力や特徴が伝わり、購入を検討しやすい構成を考えながら制作しました。</span>
+                </li>
+
+                <li>
+                    <p>ターゲット</p>
+                    <span>かわいい雑貨やステーショナリーが好きな人、ゆめかわいい世界観や星・星座モチーフが好きな人をターゲットに設定しました。商品を眺めるだけでも楽しめ、実際に購入してみたいと思ってもらえるサイトを目指しています。</span>
+                </li>
+
+                <li>
+                    <p>コンセプト</p>
+                    <span>際に商品を販売すると仮定し、「どのような情報があれば商品を選びやすく、購入したくなるか」を考えてサイトを設計しました。シールのビジュアルを大きく見せるだけでなく、12星座それぞれの商品紹介やシリーズの世界観が伝わるコンテンツを配置し、ユーザーが楽しみながら商品を知ることができる構成を意識しています。スマートフォンでの閲覧を想定し、情報の見やすさや操作のしやすさにも配慮しました。</span>
+                </li>
+
+                <li>
+                    <p>制作期間</p>
+                    <span>約1週間</span>
+                </li>
+
+                <li>
+                    <p>担当範囲</p>
+                    <span>デザイン / コーディング</span>
+                </li>
+
+                <li>
+                    <p>URL</p>
+                    <span><a href="https://hidemisa0209.github.io/zodiac-sp/" target="_blank" rel="noopener noreferrer">https://hidemisa0209.github.io/zodiac-sp/</a></span>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+
+
+    <section id="works-point">
+        <div class="inner">
+            <h3 class="section-subtitle">
+                POINT
+                <small>こだわり</small>
+            </h3>
+
+            <div class="wsp-slider">
+                <div class="wsp-list">
+                    <div class="wsp-item">
+                        <picture>
+                            <source srcset="./img/works/zodiac-sp/zodiacsp_point_page01_sp.png" media="(max-width: 767px)" type="image/png">
+                            <img src="./img/works/zodiac-sp/zodiacsp_point_page01.png" alt="1ページ目">
+                        </picture>
+                    </div>
+
+                    <div class="wsp-item">
+                        <picture>
+                            <source srcset="./img/works/zodiac-sp/zodiacsp_point_page02_sp.png" media="(max-width: 767px)" type="image/png">
+                            <img src="./img/works/zodiac-sp/zodiacsp_point_page02.png" alt="2ページ目">
+                        </picture>
+                    </div>
+
+                    <div class="wsp-item">
+                        <picture>
+                            <source srcset="./img/works/zodiac-sp/zodiacsp_point_page03_sp.png" media="(max-width: 767px)" type="image/png">
+                            <img src="./img/works/zodiac-sp/zodiacsp_point_page03.png" alt="3ページ目">
+                        </picture>
+                    </div>
+
+                    <div class="wsp-item">
+                        <picture>
+                            <source srcset="./img/works/zodiac-sp/zodiacsp_point_page04_sp.png" media="(max-width: 767px)" type="image/png">
+                            <img src="./img/works/zodiac-sp/zodiacsp_point_page04.png" alt="4ページ目">
+                        </picture>
+                    </div>
+
+                    <div class="wsp-item">
+                        <picture>
+                            <source srcset="./img/works/zodiac-sp/zodiacsp_point_page05_sp.png" media="(max-width: 767px)" type="image/png">
+                            <img src="./img/works/zodiac-sp/zodiacsp_point_page05.png" alt="5ページ目">
+                        </picture>
+                    </div>
+                </div>
+            </div>
+
+            <div class="wsp-nav">
+                <button class="wsp-btn" id="wsp-back">
+                    <span></span>
+                </button>
+
+                <div class="wsp-progress">
+                    <div class="wsp-progress-fill"></div>
+                </div>
+
+                <button class="wsp-btn" id="wsp-next">
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section id="works-related">
+        <div class="inner">
+            <h4 class="section-subtitle">
+                RELATED
+                <small>関連作品</small>
+            </h4>
+
+            <div class="wa-column">
+                <div class="wa-item">
+                    <a href="./works_zodiactool.html">
+                        <div class="wa-pic">
+                            <img src="./img/works/zodiac-tool/zodiactool_allview_pic.png" alt="制作物のサムネイル">
+                        </div>
+
+                        <div class="wa-txt">
+                            <p>課題制作</p>
+                            <span>12星座シール販促ツール</span>
+                        </div>
+                    </a>
+                </div>
+
+
+                <div class="wa-item">
+                    <a href="./works_weatherapp.html">
+                        <div class="wa-pic">
+                            <img src="./img/works/weather-app/weather_allview_pic.png" alt="制作物のサムネイル">
+                        </div>
+
+                        <div class="wa-txt">
+                            <p>課題制作</p>
+                            <span>天気予報アプリ</span>
+                        </div>
+                    </a>
+                </div>
+
+
+                <div class="wa-item">
+                    <a href="./works_omikujiapp.html">
+                        <div class="wa-pic">
+                            <img src="./img/works/omikuji-app/omikuji_allview_pic.png" alt="制作物のサムネイル">
+                        </div>
+
+                        <div class="wa-txt">
+                            <p>課題制作</p>
+                            <span>おみくじアプリ</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <nav id="works-nav">
+        <div class="inner">
+            <a href="./works_school.html" id="wsn-backbtn" class="wsn-pagebtn">
+                <div class="wsn-arrow"></div>
+                <span>母校リニューアルサイト</span>
+            </a>
+
+            <a href="./works_all.html" class="cmp-backbtn">BACK ALL VIEW</a>
+
+            <a href="./works_zodiactool.html" id="wsn-nextbtn" class="wsn-pagebtn">
+                <span>12星座シール販促ツール</span>
+                <div class="wsn-arrow"></div>
+            </a>
+        </div>
+    </nav>
+
+
+
+    <section class="Copyrighte">
+        <span>Copyrighte 2026 Hidera Misaki All Rights Reserved.</span>
+    </section>
+</body>
+
+</html>

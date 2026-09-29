@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./img/siteicon.png" type="image/png" alt="アイコン">
+    <title>HIDERA Portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal" defer></script>
+    <script type="module" src="./js/script.js"></script>
+</head>
+
+
+<body>
+
+
+    <div class="loading">
+        <div class="l-pic"><img src="./img/l_pic.png" alt="ローディング画像"></div>
+        <p class="l-text">now loading<span></span></p>
+    </div>
+
+    
+    <header class="sub-header bg-grid">
+        <div class="inner">
+            <div class="m-logo">
+                <a href="./index.html"><img src="./img/m_logo.svg" alt="ロゴ"></a>
+            </div>
+
+            <nav class="m-nav">
+                <ul>
+                    <li>
+                        <a href="./index.html">TOP</a>
+                    </li>
+
+                    <li>
+                        <a href="./works_all.html">WORKS</a>
+                    </li>
+
+                    <li>
+                        <a href="./about.html">ABOUT</a>
+                    </li>
+
+                    <li>
+                        <a href="./index.html#main-contact">CONTACT</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+
+    <section id="hamburger-section">
+        <div class="inner">
+            <button class="m-hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </section>
+
+
+
+    <section id="hamburger-menu">
+        <div class="inner">
+            <div class="h-logo">
+                <img src="./img/h_logo.svg" alt="ロゴ">
+            </div>
+
+
+            <nav class="h-nav">
+                <ul>
+                    <li>
+                        <a href="./index.html">
+                            <span class="h-title">TOP</span>
+                            <small>トップページ</small>
+                            <span class="h-arrow"></span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="./works_all.html">
+                            <span class="h-title">WORKS</span>
+                            <small>制作物</small>
+                            <span class="h-arrow"></span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="./about.html">
+                            <span class="h-title">ABOUT</span>
+                            <small>自己紹介</small>
+                            <span class="h-arrow"></span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="./index.html#main-contact">
+                            <span class="h-title">CONTACT</span>
+                            <small>お問い合わせ</small>
+                            <span class="h-arrow"></span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </section>
+
+
+
+    <!-- パンくずリスト -->
+    <nav id="breadcrumb">
+        <div class="inner">
+            <a href="./index.html" class="brd-item">TOP</a>
+            <span class="b-arrow"></span>
+            <a href="./works_all.html" class="brd-item">WORKS</a>
+            <span class="b-arrow"></span>
+            <a href="./works_chocobanner.html" class="brd-current">KOBEチョコフェスバナー</a>
+        </div>
+    </nav>
+
+
+
+    <section id="works-sub">
+        <div class="inner">
+            <h1 class="section-title">
+                WORKS
+                <small>制作物</small>
+            </h1>
+
+            <div id="ws-mainpic" class="ws-pic">
+                <img src="./img/works/choco-banner/chocobanner_mainpic.png" alt="モックアップの画像">
+            </div>
+
+            <h2 class="section-subtitle">
+                KOBEチョコフェスバナー
+                <small>Illustrator</small>
+            </h2>
+
+            <ul class="ws-tag">
+                <li><a href="./works_academicproject.html" class="ws-type">課題制作</a></li>
+                <li><a href="./works_all_graphicdesign.html" class="ws-category"># グラフィックデザイン</a></li>
+            </ul>
+
+
+            <ul class="ws-info">
+                <li>
+                    <p>概要</p>
+                    <span>KOBEチョコフェスを想定して制作したWebバナーです。<br>Illustratorでチョコレートの3Dオブジェクトを制作し、バナーのビジュアルとして使用しました。</span>
+                </li>
+
+                <li>
+                    <p>ターゲット</p>
+                    <span>チョコレートやスイーツが好きな25〜40代の女性をターゲットに設定しました。<br>バナーを見た瞬間にチョコレートのおいしさやイベントへの興味を感じてもらえるようなデザインを目指しています。</span>
+                </li>
+
+                <li>
+                    <p>コンセプト</p>
+                    <span>チョコレートの魅力が視覚的に伝わり、思わず食べたくなるようなビジュアルを目指しました。Illustratorでチョコレートの3Dオブジェクトを一から制作し、さらに色味を調整することで、よりおいしそうに見える質感や色合いを追求しています。スイーツイベントらしい華やかさを持たせながら、ターゲットである25〜40代女性が興味を持ちやすいデザインを意識しました。</span>
+                </li>
+
+                <li>
+                    <p>制作期間</p>
+                    <span>約2日</span>
+                </li>
+
+                <li>
+                    <p>担当範囲</p>
+                    <span>デザイン</span>
+                </li>
+
+                <li>
+                    <p>URL</p>
+                    <span>No link</span>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+
+
+    <section id="works-point">
+        <div class="inner">
+            <h3 class="section-subtitle">
+                POINT
+                <small>こだわり</small>
+            </h3>
+
+            <div class="wsp-slider">
+                <div class="wsp-list">
+                    <div class="wsp-item">
+                        <picture>
+                            <source srcset="./img/works/choco-banner/chocobanner_point_page01_sp.png" media="(max-width: 767px)" type="image/png">
+                            <img src="./img/works/choco-banner/chocobanner_point_page01.png" alt="1ページ目">
+                        </picture>
+                    </div>
+
+                    <div class="wsp-item">
+                        <picture>
+                            <source srcset="./img/works/choco-banner/chocobanner_point_page02_sp.png" media="(max-width: 767px)" type="image/png">
+                            <img src="./img/works/choco-banner/chocobanner_point_page02.png" alt="2ページ目">
+                        </picture>
+                    </div>
+
+                    <div class="wsp-item">
+                        <picture>
+                            <source srcset="./img/works/choco-banner/chocobanner_point_page03_sp.png" media="(max-width: 767px)" type="image/png">
+                            <img src="./img/works/choco-banner/chocobanner_point_page03.png" alt="3ページ目">
+                        </picture>
+                    </div>
+
+                    <div class="wsp-item">
+                        <picture>
+                            <source srcset="./img/works/choco-banner/chocobanner_point_page04_sp.png" media="(max-width: 767px)" type="image/png">
+                            <img src="./img/works/choco-banner/chocobanner_point_page04.png" alt="4ページ目">
+                        </picture>
+                    </div>
+
+                    <div class="wsp-item">
+                        <picture>
+                            <source srcset="./img/works/choco-banner/chocobanner_point_page05_sp.png" media="(max-width: 767px)" type="image/png">
+                            <img src="./img/works/choco-banner/chocobanner_point_page05.png" alt="5ページ目">
+                        </picture>
+                    </div>
+                </div>
+            </div>
+
+            <div class="wsp-nav">
+                <button class="wsp-btn" id="wsp-back">
+                    <span></span>
+                </button>
+
+                <div class="wsp-progress">
+                    <div class="wsp-progress-fill"></div>
+                </div>
+
+                <button class="wsp-btn" id="wsp-next">
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section id="works-related">
+        <div class="inner">
+            <h4 class="section-subtitle">
+                RELATED
+                <small>関連作品</small>
+            </h4>
+
+            <div class="wa-column">
+                <div class="wa-item">
+                    <a href="./works_chocoposter.html">
+                        <div class="wa-pic">
+                            <img src="./img/works/choco-poster/chocoposter_allview_pic.png" alt="制作物のサムネイル">
+                        </div>
+
+                        <div class="wa-txt">
+                            <p>課題制作</p>
+                            <span>KOBEチョコフェスポスター</span>
+                        </div>
+                    </a>
+                </div>
+
+
+                <div class="wa-item">
+                    <a href="./works_Infographicwater.html">
+                        <div class="wa-pic">
+                            <img src="./img/works/Infographic-water/Infographicwater_allview_pic.png" alt="制作物のサムネイル">
+                        </div>
+
+                        <div class="wa-txt">
+                            <p>課題制作</p>
+                            <span>インフォグラフィック（貯水率）</span>
+                        </div>
+                    </a>
+                </div>
+
+
+                <div class="wa-item">
+                    <a href="./works_Infographicdeep.html">
+                        <div class="wa-pic">
+                            <img src="./img/works/Infographic-deep/Infographicdeep_allview_pic.png" alt="制作物のサムネイル">
+                        </div>
+
+                        <div class="wa-txt">
+                            <p>課題制作</p>
+                            <span>インフォグラフィック（ディープラーニングと機械学習の違い）</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <nav id="works-nav">
+        <div class="inner">
+            <a href="./works_zodiactool.html" id="wsn-backbtn" class="wsn-pagebtn">
+                <div class="wsn-arrow"></div>
+                <span>12星座シール販促ツール</span>
+            </a>
+
+            <a href="./works_all.html" class="cmp-backbtn">BACK ALL VIEW</a>
+
+            <a href="./works_chocoposter.html" id="wsn-nextbtn" class="wsn-pagebtn">
+                <span>KOBEチョコフェスポスター</span>
+                <div class="wsn-arrow"></div>
+            </a>
+        </div>
+    </nav>
+
+
+
+    <section class="Copyrighte">
+        <span>Copyrighte 2026 Hidera Misaki All Rights Reserved.</span>
+    </section>
+</body>
+
+</html>

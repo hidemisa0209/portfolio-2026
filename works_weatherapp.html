@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./img/siteicon.png" type="image/png" alt="アイコン">
+    <title>HIDERA Portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal" defer></script>
+    <script type="module" src="./js/script.js"></script>
+</head>
+
+
+<body>
+
+
+    <div class="loading">
+        <div class="l-pic"><img src="./img/l_pic.png" alt="ローディング画像"></div>
+        <p class="l-text">now loading<span></span></p>
+    </div>
+
+    
+    <header class="sub-header bg-grid">
+        <div class="inner">
+            <div class="m-logo">
+                <a href="./index.html"><img src="./img/m_logo.svg" alt="ロゴ"></a>
+            </div>
+
+            <nav class="m-nav">
+                <ul>
+                    <li>
+                        <a href="./index.html">TOP</a>
+                    </li>
+
+                    <li>
+                        <a href="./works_all.html">WORKS</a>
+                    </li>
+
+                    <li>
+                        <a href="./about.html">ABOUT</a>
+                    </li>
+
+                    <li>
+                        <a href="./index.html#main-contact">CONTACT</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+
+    <section id="hamburger-section">
+        <div class="inner">
+            <button class="m-hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </section>
+
+
+
+    <section id="hamburger-menu">
+        <div class="inner">
+            <div class="h-logo">
+                <img src="./img/h_logo.svg" alt="ロゴ">
+            </div>
+
+
+            <nav class="h-nav">
+                <ul>
+                    <li>
+                        <a href="./index.html">
+                            <span class="h-title">TOP</span>
+                            <small>トップページ</small>
+                            <span class="h-arrow"></span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="./works_all.html">
+                            <span class="h-title">WORKS</span>
+                            <small>制作物</small>
+                            <span class="h-arrow"></span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="./about.html">
+                            <span class="h-title">ABOUT</span>
+                            <small>自己紹介</small>
+                            <span class="h-arrow"></span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="./index.html#main-contact">
+                            <span class="h-title">CONTACT</span>
+                            <small>お問い合わせ</small>
+                            <span class="h-arrow"></span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </section>
+
+
+
+    <!-- パンくずリスト -->
+    <nav id="breadcrumb">
+        <div class="inner">
+            <a href="./index.html" class="brd-item">TOP</a>
+            <span class="b-arrow"></span>
+            <a href="./works_all.html" class="brd-item">WORKS</a>
+            <span class="b-arrow"></span>
+            <a href="./works_weatherapp.html" class="brd-current">天気予報アプリ</a>
+        </div>
+    </nav>
+
+
+
+    <section id="works-sub">
+        <div class="inner">
+            <h1 class="section-title">
+                WORKS
+                <small>制作物</small>
+            </h1>
+
+            <div id="ws-mainpic" class="ws-pic">
+                <img src="./img/works/weather-app/weather_mainpic.png" alt="モックアップの画像">
+            </div>
+
+            <h2 class="section-subtitle">
+                天気予報アプリ
+                <small>Illustrator / Visual Studio Code</small>
+            </h2>
+
+            <ul class="ws-tag">
+                <li><a href="./works_academicproject.html" class="ws-type">課題制作</a></li>
+                <li><a href="./works_all_web.html" class="ws-category"># Web</a></li>
+                <li><a href="./works_all_uidesign.html" class="ws-category"># UIデザイン</a></li>
+            </ul>
+
+
+            <ul class="ws-info">
+                <li>
+                    <p>概要</p>
+                    <span>課題制作として製作したweb天気予報アプリです。<br>OpenWeather APIを利用し、現在の天気や気温などの情報をリアルタイムで取得・表示できるよう実装しました。</span>
+                </li>
+
+                <li>
+                    <p>ターゲット</p>
+                    <span>日常的に天気を確認する幅広いユーザーを想定し、特に見やすさや操作のしやすさを重視しました。毎日使いたくなるような、親しみやすいアプリを目指しています。</span>
+                </li>
+
+                <li>
+                    <p>コンセプト</p>
+                    <span>毎日何度も見る天気アプリだからこそ、情報を確認するだけでなく、見るたびに気分が少し明るくなるようなデザインを目指しました。淡いカラーを使用したゆめかわな世界観で親しみやすさを表現しつつ、天気情報の見やすさにも配慮しています。<br>また、PCでは日本地図から地域を選択できるUIを採用し、タブレット・スマートフォンでは押しやすいボタンレイアウトへ切り替えることで、デバイスごとの使いやすさを意識しました。さらに、ロード画面やスクロールバーなど細部までデザインを統一し、アプリ全体の世界観づくりにもこだわっています。</span>
+                </li>
+
+                <li>
+                    <p>制作期間</p>
+                    <span>約1週間</span>
+                </li>
+
+                <li>
+                    <p>担当範囲</p>
+                    <span>デザイン / コーディング</span>
+                </li>
+
+                <li>
+                    <p>URL</p>
+                    <span><a href="https://hidera--polite-khapse-3ff660.netlify.app/" target="_blank" rel="noopener noreferrer">https://hidera--polite-khapse-3ff660.netlify.app/</a></span>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+
+
+    <section id="works-point">
+        <div class="inner">
+            <h3 class="section-subtitle">
+                POINT
+                <small>こだわり</small>
+            </h3>
+
+            <div class="wsp-slider">
+                <div class="wsp-list">
+                    <div class="wsp-item">
+                        <picture>
+                            <source srcset="./img/works/weather-app/weather_point_page01_sp.png" media="(max-width: 767px)" type="image/png">
+                            <img src="./img/works/weather-app/weather_point_page01.png" alt="1ページ目">
+                        </picture>
+                    </div>
+
+                    <div class="wsp-item">
+                        <picture>
+                            <source srcset="./img/works/weather-app/weather_point_page02_sp.png" media="(max-width: 767px)" type="image/png">
+                            <img src="./img/works/weather-app/weather_point_page02.png" alt="2ページ目">
+                        </picture>
+                    </div>
+
+                    <div class="wsp-item">
+                        <picture>
+                            <source srcset="./img/works/weather-app/weather_point_page03_sp.png" media="(max-width: 767px)" type="image/png">
+                            <img src="./img/works/weather-app/weather_point_page03.png" alt="3ページ目">
+                        </picture>
+                    </div>
+
+                    <div class="wsp-item">
+                        <picture>
+                            <source srcset="./img/works/weather-app/weather_point_page04_sp.png" media="(max-width: 767px)" type="image/png">
+                            <img src="./img/works/weather-app/weather_point_page04.png" alt="4ページ目">
+                        </picture>
+                    </div>
+
+                    <div class="wsp-item">
+                        <picture>
+                            <source srcset="./img/works/weather-app/weather_point_page05_sp.png" media="(max-width: 767px)" type="image/png">
+                            <img src="./img/works/weather-app/weather_point_page05.png" alt="5ページ目">
+                        </picture>
+                    </div>
+                </div>
+            </div>
+
+            <div class="wsp-nav">
+                <button class="wsp-btn" id="wsp-back">
+                    <span></span>
+                </button>
+
+                <div class="wsp-progress">
+                    <div class="wsp-progress-fill"></div>
+                </div>
+
+                <button class="wsp-btn" id="wsp-next">
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section id="works-related">
+        <div class="inner">
+            <h4 class="section-subtitle">
+                RELATED
+                <small>関連作品</small>
+            </h4>
+
+            <div class="wa-column">
+                <div class="wa-item">
+                    <a href="./works_omikujiapp.html">
+                        <div class="wa-pic">
+                            <img src="./img/works/omikuji-app/omikuji_allview_pic.png" alt="制作物のサムネイル">
+                        </div>
+
+                        <div class="wa-txt">
+                            <p>課題制作</p>
+                            <span>おみくじアプリ</span>
+                        </div>
+                    </a>
+                </div>
+
+
+                <div class="wa-item">
+                    <a href="./works_zodiacsp.html">
+                        <div class="wa-pic">
+                            <img src="./img/works/zodiac-sp/zodiacsp_allview_pic.png" alt="制作物のサムネイル">
+                        </div>
+
+                        <div class="wa-txt">
+                            <p>課題制作</p>
+                            <span>12星座シール紹介SP</span>
+                        </div>
+                    </a>
+                </div>
+
+
+                <div class="wa-item">
+                    <a href="./works_aquarium.html">
+                        <div class="wa-pic">
+                            <img src="./img/works/aquarium/aquarium_allview_pic.png" alt="制作物のサムネイル">
+                        </div>
+
+                        <div class="wa-txt">
+                            <p>課題制作</p>
+                            <span>架空の水族館サイト</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <nav id="works-nav">
+        <div class="inner">
+            <a href="./works_disaster.html" id="wsn-backbtn" class="wsn-pagebtn">
+                <div class="wsn-arrow"></div>
+                <span>家庭用防災LP</span>
+            </a>
+
+            <a href="./works_all.html" class="cmp-backbtn">BACK ALL VIEW</a>
+
+            <a href="./works_omikujiapp.html" id="wsn-nextbtn" class="wsn-pagebtn">
+                <span>おみくじアプリ</span>
+                <div class="wsn-arrow"></div>
+            </a>
+        </div>
+    </nav>
+
+
+
+    <section class="Copyrighte">
+        <span>Copyrighte 2026 Hidera Misaki All Rights Reserved.</span>
+    </section>
+</body>
+
+</html>

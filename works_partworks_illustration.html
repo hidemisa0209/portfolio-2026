@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./img/siteicon.png" type="image/png" alt="アイコン">
+    <title>HIDERA Portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal" defer></script>
+    <script type="module" src="./js/script.js"></script>
+</head>
+
+
+<body>
+    <header class="sub-header bg-grid">
+        <div class="inner">
+            <div class="m-logo">
+                <a href="./index.html"><img src="./img/m_logo.svg" alt="ロゴ"></a>
+            </div>
+
+            <nav class="m-nav">
+                <ul>
+                    <li>
+                        <a href="./index.html">TOP</a>
+                    </li>
+
+                    <li>
+                        <a href="./works_all.html">WORKS</a>
+                    </li>
+
+                    <li>
+                        <a href="./about.html">ABOUT</a>
+                    </li>
+
+                    <li>
+                        <a href="./index.html#main-contact">CONTACT</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+
+    <section id="hamburger-section">
+        <div class="inner">
+            <button class="m-hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </section>
+
+
+
+    <section id="hamburger-menu">
+        <div class="inner">
+            <div class="h-logo">
+                <img src="./img/h_logo.svg" alt="ロゴ">
+            </div>
+
+
+            <nav class="h-nav">
+                <ul>
+                    <li>
+                        <a href="./index.html">
+                            <span class="h-title">TOP</span>
+                            <small>トップページ</small>
+                            <span class="h-arrow"></span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="./works_all.html">
+                            <span class="h-title">WORKS</span>
+                            <small>制作物</small>
+                            <span class="h-arrow"></span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="./about.html">
+                            <span class="h-title">ABOUT</span>
+                            <small>自己紹介</small>
+                            <span class="h-arrow"></span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="./index.html#main-contact">
+                            <span class="h-title">CONTACT</span>
+                            <small>お問い合わせ</small>
+                            <span class="h-arrow"></span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </section>
+
+
+
+    <!-- パンくずリスト -->
+    <nav id="breadcrumb">
+        <div class="inner">
+            <a href="./index.html" class="brd-item">TOP</a>
+            <span class="b-arrow"></span>
+            <a href="./works_all.html" class="brd-current">WORKS</a>
+        </div>
+    </nav>
+
+
+
+    <section id="works-all" class="wa-pw-illustration">
+        <div class="inner">
+            <h1 class="section-title">
+                WORKS
+                <small>制作物</small>
+            </h1>
+
+            <nav class="wa-nav">
+                <ul class="filter-type">
+                    <li><a href="./works_all.html">すべて</a></li>
+                    <li><a href="./works_personalproject.html">自主制作</a></li>
+                    <li><a href="./works_academicproject.html">課題制作</a></li>
+                    <li><a href="./works_partworks.html" class="wa-active-type">アルバイト</a></li>
+                </ul>
+
+                <ul class="filter-category">
+                    <li><a href="./works_partworks_video.html"># 動画</a></li>
+                    <li><a href="./works_partworks_web.html"># Web</a></li>
+                    <li><a href="./works_partworks_uidesign.html"># UIデザイン</a></li>
+                    <li><a href="./works_partworks_graphicdesign.html"># グラフィックデザイン</a></li>
+                    <li><a href="./works_partworks_illustration.html" class="wa-active-category"># イラスト</a></li>
+                </ul>
+            </nav>
+
+
+
+            <div class="wa-column">
+                <div class="wa-item">
+                    <a href="./works_illustrationparttime.html">
+                        <div class="wa-pic">
+                            <img src="./img/works/illustration-parttime/illustrationparttime_allview_pic.png" alt="制作物のサムネイル">
+                        </div>
+
+                        <div class="wa-txt">
+                            <p>アルバイト</p>
+                            <span>イラストアシスタント / グッズ制作</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- ページネーション -->
+    <nav id="pagination">
+        <a href="#" class="p-leftarrow p-disabled"><img src="./img/arrow_black.svg" alt="左矢印"></a>
+
+        <ul class="pagination-list">
+            <li class="p-current"><a href="./works_partworks_illustration.html"></a></li>
+        </ul>
+
+        <a href="#" class="p-rightarrow p-disabled"><img src="./img/arrow_black.svg" alt="右矢印"></a>
+    </nav>
+
+
+
+    <section class="Copyrighte">
+        <span>Copyrighte 2026 Hidera Misaki All Rights Reserved.</span>
+    </section>
+</body>
+
+</html>
